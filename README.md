@@ -1,10 +1,11 @@
 # Skin Lesion Analysis Towards Melanoma Detection 
-https://challenge2019.isic-archive.com/
+![Sample images](https://github.com/j05t/lesion-analysis/blob/master/sample_images.png)
+
 ## Background
 Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. However, clinicians should receive adequate training for those improvements to be realized. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges.
 
 ## Task
-The goal for ISIC 2019 is classify dermoscopic images among nine different diagnostic categories:
+The goal for ![ISIC 2019](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
 
     Melanoma
     Melanocytic nevus
