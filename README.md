@@ -16,7 +16,7 @@ The goal for ISIC 2019 is classify dermoscopic images among nine different diagn
     Squamous cell carcinoma
     None of the others
 
-25,331 images are available for training across 8 different categories. Additionally, the test dataset (planned release August 2nd) will contain an additional outlier class not represented in the training data, which developed systems must be able to identify.
+25,331 images are available for training across 8 different categories. Additionally, the test dataset contains an additional outlier class not represented in the training data, which developed systems must be able to identify.
 
 ## Results
 ![ROC](https://github.com/j05t/lesion-analysis/blob/master/ensemble_plot.png)
@@ -24,7 +24,7 @@ The goal for ISIC 2019 is classify dermoscopic images among nine different diagn
 ![ROC](https://github.com/j05t/lesion-analysis/blob/master/ensemble_metrics.png)
 
 ## Source
-Ensemble of four classifiers performs at 0.613 overall score: https://challenge2019.isic-archive.com/live-leaderboard.html (2019: Lesion Diagnosis). 
+An ensemble of classifiers performs at 0.624 overall score: https://challenge2019.isic-archive.com/live-leaderboard.html (2019: Lesion Diagnosis). 
 
 Trained model architectures are 
 * Inception-ResNet-v2: ![isic_classifier_inceptionresnetv2.ipynb](isic_classifier_inceptionresnetv2.ipynb)
