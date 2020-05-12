@@ -29,5 +29,6 @@ An ensemble of classifiers performs at 0.624 overall score: https://challenge201
 Trained model architectures are 
 * Inception-ResNet-v2: [isic_classifier_inceptionresnetv2.ipynb](isic_classifier_inceptionresnetv2.ipynb)
 * SE-ResNeXt-101(32x4d): [isic_classifier_se_resnext101_32x4d.ipynb](isic_classifier_se_resnext101_32x4d.ipynb)
+* NASNet-A-Large: [isic_classifier_nasnetalarge.ipynb](isic_classifier_nasnetalarge.ipynb)
 
-Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating the simple arithmetic mean of the predictions of the best performing models. If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
+Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating the arithmetic mean of the predictions of the best performing models. If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
