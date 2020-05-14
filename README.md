@@ -3,7 +3,7 @@
 
 Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. However, clinicians should receive adequate training for those improvements to be realized. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges.
 
-The goal for [ISIC 2019](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
+The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
 
     Melanoma
     Melanocytic nevus
@@ -26,9 +26,10 @@ An ensemble of classifiers performs at 0.624 overall score: https://challenge201
 
 ## Source
 
-Trained model architectures are 
+Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating the arithmetic mean of the predictions of the best performing models. Trained model architectures are 
 * Inception-ResNet-v2: [isic_classifier_inceptionresnetv2.ipynb](isic_classifier_inceptionresnetv2.ipynb)
 * SE-ResNeXt-101(32x4d): [isic_classifier_se_resnext101_32x4d.ipynb](isic_classifier_se_resnext101_32x4d.ipynb)
 * NASNet-A-Large: [isic_classifier_nasnetalarge.ipynb](isic_classifier_nasnetalarge.ipynb)
+* EfficientNet-B4: [isic_classifier_efficientnet-b4.ipynb](isic_classifier_efficientnet-b4.ipynb)
 
-Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating the arithmetic mean of the predictions of the best performing models. If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
+If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
