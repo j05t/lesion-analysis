@@ -1,7 +1,9 @@
 # Skin Lesion Analysis Towards Melanoma Detection 
 ![Sample images](https://github.com/j05t/lesion-analysis/blob/master/sample_images.png)
 
-Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. However, clinicians should receive adequate training for those improvements to be realized. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges. The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
+Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. However, clinicians should receive adequate training for those improvements to be realized. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges. 
+
+The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
 
     Melanoma
     Melanocytic nevus
@@ -16,7 +18,7 @@ Skin cancer is the most common cancer globally, with melanoma being the most dea
 25,331 images are available for training across 8 different categories. Additionally, the test dataset contains an additional outlier class not represented in the training data, which developed systems must be able to identify.
 
 ## Results
-An ensemble of classifiers performs at 0.624 overall score: https://challenge2019.isic-archive.com/live-leaderboard.html (2019: Lesion Diagnosis). 
+An ensemble of classifiers performs at 0.629 balanced multiclass accuracy [(ISIC 2019 Live Leaderboard - 2019: Lesion Diagnosis)](https://challenge2019.isic-archive.com/live-leaderboard.html).
 
 ![ROC](https://github.com/j05t/lesion-analysis/blob/master/ensemble_plot.png)
 
