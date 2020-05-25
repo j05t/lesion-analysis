@@ -18,11 +18,11 @@ The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) 
 25,331 images are available for training across 8 different categories. Additionally, the test dataset contains an additional outlier class not represented in the training data, which developed systems must be able to identify.
 
 ## Results
-An ensemble of classifiers performs at 0.629 balanced multiclass accuracy [(ISIC 2019 Live Leaderboard - 2019: Lesion Diagnosis)](https://challenge2019.isic-archive.com/live-leaderboard.html).
+An ensemble of classifiers performs at 0.632 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge2019.isic-archive.com/live-leaderboard.html) (2019: Lesion Diagnosis).
 
-![ROC](https://github.com/j05t/lesion-analysis/blob/master/ensemble_plot.png)
+![ROC](https://github.com/j05t/lesion-analysis/blob/master/roc.png)
 
-![ROC](https://github.com/j05t/lesion-analysis/blob/master/ensemble_metrics.png)
+![ROC](https://github.com/j05t/lesion-analysis/blob/master/metrics.png)
 
 ## Source
 
