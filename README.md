@@ -1,7 +1,7 @@
 # Skin Lesion Analysis Towards Melanoma Detection 
 ![Sample images](https://github.com/j05t/lesion-analysis/blob/master/sample_images.png)
 
-Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. However, clinicians should receive adequate training for those improvements to be realized. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges. 
+Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Dermoscopy is a skin imaging modality that has demonstrated improvement for diagnosis of skin cancer compared to unaided visual inspection. In order to make expertise more widely available, the International Skin Imaging Collaboration (ISIC) has developed the ISIC Archive, an international repository of dermoscopic images, for both the purposes of clinical training, and for supporting technical research toward automated algorithmic analysis by hosting the ISIC Challenges. 
 
 The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) is to classify dermoscopic images among nine different diagnostic categories:
 
@@ -25,7 +25,6 @@ An ensemble of classifiers performs at 0.632 balanced multiclass accuracy: [ISIC
 ![ROC](https://github.com/j05t/lesion-analysis/blob/master/metrics.png)
 
 ## Source
-
 Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating the arithmetic mean of the predictions of the best performing models. Trained model architectures are 
 * Inception-ResNet-v2: [isic_classifier_inceptionresnetv2.ipynb](isic_classifier_inceptionresnetv2.ipynb)
 * SE-ResNeXt-101(32x4d): [isic_classifier_se_resnext101_32x4d.ipynb](isic_classifier_se_resnext101_32x4d.ipynb)
@@ -34,3 +33,6 @@ Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating t
 * EfficientNet-B5: [isic_classifier_efficientnet-b5.ipynb](isic_classifier_efficientnet-b5.ipynb)
 
 If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
+
+## Web App
+The best single model has been deployed as a web app at https://lesion-analysis.uc.r.appspot.com/.
