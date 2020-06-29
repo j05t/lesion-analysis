@@ -19,7 +19,7 @@ The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) 
 The best single model has been deployed as a web app at https://lesion-analysis.uc.r.appspot.com/.
 
 ### Accuracy
-An ensemble of classifiers performs at 0.632 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge2019.isic-archive.com/live-leaderboard.html) (2019: Lesion Diagnosis).
+An ensemble of classifiers performs at 0.634 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge2019.isic-archive.com/live-leaderboard.html) (2019: Lesion Diagnosis).
 
 <img width="400" src="https://github.com/j05t/lesion-analysis/blob/master/roc.png" />
 <img width="800" src="https://github.com/j05t/lesion-analysis/blob/master/metrics.png" />
