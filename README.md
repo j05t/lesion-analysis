@@ -21,7 +21,7 @@ Combined data from ISIC-2019, PH2, Light Field Image Dataset of Skin Lesions, SD
 <img src="https://github.com/j05t/lesion-analysis/blob/master/combined_dataset.png" />
 
 ### Web App
-The best single model has been deployed as a web app at https://lesion-analysis.uc.r.appspot.com/
+The best single model has been deployed as a web app at https://skin-lesion-classifier-285410.uc.r.appspot.com/
 
 ### Accuracy
 An ensemble of classifiers performs at 0.634 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge2019.isic-archive.com/live-leaderboard.html) (2019: Lesion Diagnosis).
