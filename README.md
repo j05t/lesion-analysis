@@ -38,3 +38,20 @@ Ensembling ([ensemble.ipynb](ensemble.ipynb)) has been achieved by calculating t
 * EfficientNet-B5: [isic_classifier_efficientnet-b5.ipynb](isic_classifier_efficientnet-b5.ipynb)
 
 If GitHub is unable to render the notebooks they can be viewed externally at https://nbviewer.jupyter.org/github/j05t/lesion-analysis/tree/master/.
+
+### Setup
+<pre>
+conda install -y --channel=conda-forge --channel=fastai --channel=anaconda \
+        efficientnet-pytorch==0.7.0 \
+        fastai==1.0.61 \
+        jupyter==1.0.0 \
+        jupyterlab==2.2.9 \
+        matplotlib==3.3.2 \
+        pandas==1.1.4 \
+        pretrainedmodels==0.7.4
+        seaborn==0.11.0
+        
+pip install -U --no-cache-dir \
+        ipython==7.19.0
+</pre>
+
