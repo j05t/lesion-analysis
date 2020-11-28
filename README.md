@@ -48,7 +48,7 @@ conda install -y --channel=conda-forge --channel=fastai --channel=anaconda \
         jupyterlab==2.2.9 \
         matplotlib==3.3.2 \
         pandas==1.1.4 \
-        pretrainedmodels==0.7.4
+        pretrainedmodels==0.7.4 \
         seaborn==0.11.0
         
 pip install -U --no-cache-dir \
