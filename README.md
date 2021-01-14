@@ -41,17 +41,7 @@ If GitHub is unable to render the notebooks they can be viewed externally at htt
 
 ### Setup
 <pre>
-conda install -y --channel=conda-forge --channel=fastai --channel=anaconda \
-        efficientnet-pytorch==0.7.0 \
-        fastai==1.0.61 \
-        jupyter==1.0.0 \
-        jupyterlab==2.2.9 \
-        matplotlib==3.3.2 \
-        pandas==1.1.4 \
-        pretrainedmodels==0.7.4 \
-        seaborn==0.11.0
-        
-pip install -U --no-cache-dir \
-        ipython==7.19.0
+pip install fastai==1.0.61 efficientnet-pytorch==0.7.0 pretrainedmodels==0.7.4 \
+            jupyter==1.0.0 matplotlib==3.3.2 pandas==1.1.4 seaborn==0.11.0 ipython==7.19.0
 </pre>
 
