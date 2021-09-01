@@ -15,16 +15,19 @@ The goal for the [ISIC 2019 challenge](https://challenge2019.isic-archive.com/) 
 
 25,331 images are available for training across 8 different categories. Additionally, the test dataset contains an additional outlier class not represented in the training data, which developed systems must be able to identify.
 
+### Manuscript
+We documented our approach to the ISIC-2019 challenge at https://arxiv.org/abs/2101.03814
+
 ### Training Data
 Combined data from ISIC-2019, PH2, Light Field Image Dataset of Skin Lesions, SD-198, 7-point criteria evaluation Database, MED-NODE.
 
 <img src="https://github.com/j05t/lesion-analysis/blob/master/combined_dataset.png" />
 
 ### Web App
-The best single model has been deployed as a web app at https://skin-lesion-classifier-285410.uc.r.appspot.com/
+<strike>The best single model has been deployed as a web app at https://skin-lesion-classifier-285410.uc.r.appspot.com/</strike>
 
 ### Accuracy
-An ensemble of classifiers performs at 0.634 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge2019.isic-archive.com/live-leaderboard.html) (2019: Lesion Diagnosis).
+An ensemble of classifiers performs at 0.634 balanced multiclass accuracy: [ISIC 2019 Live Leaderboard](https://challenge.isic-archive.com/leaderboards/live) (2019: Lesion Diagnosis).
 
 <img width="400" src="https://github.com/j05t/lesion-analysis/blob/master/roc.png" />
 <img width="800" src="https://github.com/j05t/lesion-analysis/blob/master/metrics.png" />
